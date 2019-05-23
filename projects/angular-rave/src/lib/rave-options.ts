@@ -43,6 +43,8 @@ export class RaveOptions {
    * route country. Default NG
    */
   country?: string;
+
+  payment_plan?: number;
   /**
    * currency to charge the card in. Default "NGN"
    */

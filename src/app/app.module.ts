@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { AngularRaveModule } from 'angular-rave';
+import { AngularRaveModule } from './../../projects/angular-rave/src/lib/angular-rave.module';
 
 @NgModule({
   declarations: [

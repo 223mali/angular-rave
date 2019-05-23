@@ -19,6 +19,7 @@ export class AngularRaveDirective {
   @Input() amount: number;
   @Input() currency: string;
   @Input() country: string;
+  @Input() payment_plan: number;
   @Input() customer_email: string;
   @Input() customer_phone: string;
   @Input() customer_firstname: string;
@@ -73,6 +74,7 @@ export class AngularRaveDirective {
     if (this.integrity_hash) { this._raveOptions.integrity_hash = this.integrity_hash; }
     if (this.pay_button_text) { this._raveOptions.pay_button_text = this.pay_button_text; }
     if (this.country) { this._raveOptions.country = this.country; }
+    if (this.payment_plan) { this._raveOptions.payment_plan = this.payment_plan; }
     if (this.currency) { this._raveOptions.currency = this.currency; }
     if (this.custom_description) { this._raveOptions.custom_description = this.custom_description; }
     if (this.customer_email) { this._raveOptions.customer_email = this.customer_email; }
